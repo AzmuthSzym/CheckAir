@@ -1,4 +1,4 @@
-from get_data import getJson
+from modules.get_data import getJson
 
 
 def validate_input(input_type: str) -> input:
