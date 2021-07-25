@@ -10,7 +10,7 @@ def validate_input(input_val) -> bool:
     except ValueError:
         return False
     return True
-        
+
 
 def popup_showinfo() -> None:
     showinfo("AirCheck Info", "Hi! This simple application allows you to check current air pollution data at desired location, which you can now input.")
