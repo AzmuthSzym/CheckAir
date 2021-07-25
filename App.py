@@ -34,12 +34,12 @@ def process() -> None:
 
 if __name__ == "__main__":
     air_data = dict
+    
     root = tk.Tk()
     root.title("AirCheck")
     root.geometry("260x250")
     root.grid_rowconfigure(2, weight = 1)
     root.grid_columnconfigure(2, weight=1)
-    
     reg = root.register(validate_input)
     
     top_frame = Frame(root)
