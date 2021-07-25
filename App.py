@@ -20,7 +20,6 @@ def process() -> None:
     lat = lat_entry.get()
     lon = lon_entry.get()
     #my_APIkey = "YOUR API KEY"
-    my_APIkey = "07f9a8a2e678d62d713b90607cc1cfc3"
     my_Jsondata = getJson(my_APIkey, lat, lon)
     json_data = my_Jsondata.request_data()
     my_data = my_Jsondata.json_deserialize(json_data)
